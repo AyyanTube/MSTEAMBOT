@@ -41,9 +41,9 @@ import os
 session = requests.Session()
 
 
-OWNER = ["5234223466"]
+OWNER = ["1299235521"]
 
-TOKEN = "enter-your-bot-token-here"
+TOKEN = "5090854046:AAGl2RTajPNTNGqpKj3O7hmjZTlQtzi6sFQ"
 PREFIX = "!/."
 
 
@@ -64,7 +64,7 @@ async def helpstr(message: types.Message):
     local_time = time.ctime(seconds)
 
     await kk.edit_text(
-        f"""<b>Hey ! @{message.from_user.username} \nYou Started A Shining Star on  : {local_time} \nIf you are interested in knowing my commands send /cmds \n By the way your UserID is <code> {message.from_user.id} </code>\n Bot by: </b> <a href='https://t.me/srfxdz'>srfxdz</a>""",
+        f"""<b>Hey ! @{message.from_user.username} \nYou Started A Shining Star on  : {local_time} \nIf you are interested in knowing my commands send /cmds \n By the way your UserID is <code> {message.from_user.id} </code>\n Bot by: </b> <a href='https://t.me/kingofhxll'>iDevice</a>""",
         disable_web_page_preview=True)
 
 
@@ -986,7 +986,7 @@ async def cdgh(message: types.Message):
   rs = random.randint(0, 100)
   query = message.text[len('/gay '):]
   if len(query) != 0:
-    if "@srfxdz" in str(query):
+    if "@kingofhxll" in str(query):
       return await message.reply(
         f" {query} <b> This person is alpha male  and  </b>"
       )
@@ -999,7 +999,7 @@ async def cdgh(message: types.Message):
     namef = message.reply_to_message.from_user.first_name
     userf = message.reply_to_message.from_user.id
 
-    if "5234223466" in str(userf):
+    if "1299235521" in str(userf):
       return await message.reply(
         f" {query} <b> This person is alpha male  </b>"
       )
